@@ -1,7 +1,7 @@
 
 header,
 footer {
-    background-color: #d9d9d9;
+    background-color: #f08892;
 }
 
 footer {
@@ -19,9 +19,9 @@ img {
 }
 
 #logo {
-    width: 120px;
-    margin: 30px 0;
-    height: auto;
+    width: 180px;
+    height: 180px;
+    margin-left: 450px;
 }
 
 .carousel,
@@ -42,16 +42,26 @@ img {
     width: auto;
 }
 
-.btn-primary {
-    background-color: rgb(0, 51, 255);
-}
-
-.btn-primary:hover {
-    background-color: rgb(9, 49, 148);
-}
-
-
 .card {
     float: left;
     margin: 15px;
+}
+
+.card-img-top{
+    width: 100px;
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.autora{
+    color: black;
+    text-decoration: none;    
+}
+
+.autora:hover {
+    color: white;
 }

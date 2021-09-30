@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio</title>
     
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
-
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="./css/style.css">
@@ -17,7 +15,7 @@
 
     <header>
       <div class="container"> 
-        <img id="logo" alt="logo" width="110" height="40" src="https://ebaconline.com.br/_nuxt/d58908d198123d3c50c18638f58abb26.svg" class="not-lazy">
+        <img id="logo" alt="logo" width="110" height="40" src="./images/logo-jp.png" class="not-lazy">
       </div>
     </header>
 
@@ -29,13 +27,20 @@
         <ol class="carousel-indicators">
           <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
           <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img src="./images/pexels-luis-gomes-546819.jpg" alt="First slide">
+            <a href="https://menstrua.netlify.app/">
+              <img src="./images/menstrua.png" alt="Foto da página de um projeto" target="_blank"></a>
           </div>
           <div class="carousel-item">
-            <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
+            <a href="https://site-mdemaravilhosa.netlify.app/maravilhosa/marielle-franco/marielle.html">
+              <img src="./images/marielle.png" alt="Foto da página de outro projeto" target="_blank"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://call-for-code-2021.us-south.cf.appdomain.cloud/">
+              <img src="./images/eco.png" alt="Foto da página de outro projeto" target="_blank"></a>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -50,12 +55,12 @@
 
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <h1>Marcelo </h1>
-          <h6>Tech lead - Dasa / Professo - EBAC</h6>
-          <p>Desenvolvedor Web desde 2008, com vasta experiência em projetos de internet, incluindo dispositivos móveis, marketing e performance digital. Já trabalhou em empresas como UOL, Valor Econômico, Editora Abril e PagSeguro, além de prestar consultoria para diversas marcas nacionais e multinacionais. Ele tem vasta experiência com React, JavaScript, HTML5, SASS, Node.js, Vue.js, Next.js, Laravel, typescript e nest.js</p>
+          <h1>Jumara Pimenta </h1>
+          <h6>Desenvolvedora Front-end Jr.</h6>
+          <p>Administradora de formação fazendo transição de carreira para a área tecnológica. Formada em desenvolvimento front-end na turma 10 do Bootcamp da Reprograma. Mãe de gato, apaixonada por inovação e tecnologia e amante do carnaval. Idealizadora do projeto de impacto social menstRUA. #thefutureisfemalecoders</p>
         </div>
         <div class="col-md-6 col-sm-12">
-          <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
+          <img src="./images/perfil-jumara.jpeg" alt="Foto de Perfil da autora">
         </div>
       </div>
 
@@ -63,30 +68,31 @@
       <div class="row">
         <div class="col">
           
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card" style="width: 15rem;">
+            <img src="./images/logo-react.png" class="card-img-top" alt="Logo do React">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">React</h5>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card" style="width: 15rem;">
+            <img src="./images/logo-html.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">HTML</h5>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+          <div class="card" style="width: 15rem;">
+            <img src="./images/logo-css.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">CSS</h5>
+            </div>
+          </div>
+
+          <div class="card" style="width: 15rem;">
+            <img src="./images/logo-js.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
             </div>
           </div>
           
@@ -100,24 +106,24 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Publicidade
+                  Administração
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
                 <div class="accordion-body">
-                  <p>Trabalho com grid, componentes...</p>
+                  <p>Mestranda em Administração na Universidade Federal do Rio Grande do Sul na linha de pesquisa em Inovação, Tecnologia e Sustentabilidade. Bacharela em Administração pela Universidade Federal do Amazonas (2017). Foi bolsista de mestrado da Capes (2018-2020). Atuou como tutora à distância no bacharelado em Desenvolvimento Rural da Universidade Federal do Rio Grande do Sul, no ano de 2019. Foi bolsista de Iniciação Científica do CNPq (2016-2017) realizando pesquisa com o tema: Análise de Indicadores de Inovação para Empresas de Incubadoras. Participa de projetos de pesquisa e de extensão na Universidade Federal do Rio Grande do Sul. Tem interesse nos temas: inovação, capacidades de inovação, incubadoras e empresas incubadas, mulheres e inovação.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne"> 
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  Sistemas de Informação
+                  Desenvolvimento Front-end
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
                 <div class="accordion-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta veniam quibusdam eligendi? Quis, eum? Mollitia molestias facilis ut sint? Voluptas commodi quisquam itaque numquam nostrum praesentium ab mollitia dolorum.</p>
+                  <p>Formada em desenvolvimento front-end pela Reprograma. A {Reprograma} é uma iniciativa de impacto social que foca em ensinar programação para mulheres. O Bootcamp teve como ênfase programação Front-end, com aprendizados em UX/UI Design, HTML5, CSS3, Git/Github, Lógica de programação, JavaScript ES6 e React.</p>
                   
                 </div>
               </div>
@@ -131,13 +137,10 @@
     </section>
 
     <footer>
-      <p class="text-center">&copy; 2021 - Desenvolvido por Marcelo</p>
+      <p class="text-center">&copy; 2021 | Site desenvolvido por <a class="autora" href="https://github.com/jumara-pimenta" target="_blank" rel="noreferrer">Jumara Pimenta</a></p>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script>
-      console.log('hello world')
-    </script>
   </body>
 </html>
