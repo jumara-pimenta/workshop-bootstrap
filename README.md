@@ -1,6 +1,22 @@
-# Exercício
+# `Workshop Bootstrap EBAC`
 
-1. Criação de página de apresentação pessoal, detalhando habilidades, formação, descrição.
-2. Usar a criatividade para customizar o projeto.
+Workshop de 3 dias ensinando a usar bootstrap nos projetos front-end. Foi proposto um desafio de criar um portfólio pessoal usando o bootstrap.
 
-Lembrem-se: quanto mais personalizado, maior reconhecimento você terá.
+### ⚙📲 Tecnologias utilizadas 
+
+HTML, CSS, Bootstrap e Netlify.
+
+
+### Screen
+
+![video_2021-09-30_14-19-23](https://user-images.githubusercontent.com/79213553/135510208-2fa24d45-dd29-4242-9c14-8be08e55f8d0.gif)
+
+
+### Site
+
+Para visualizar o site <a href="https://bootstrap-ebac.netlify.app/" target="_blank">clique aqui<a/>.
+  
+### Autora
+  
+- Linkedin - [Jumara Pimenta](https://www.linkedin.com/in/jumara-souza-pimenta/)
+- GitHub - [Jumara Pimenta](https://github.com/jumara-pimenta)
